@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    android:orientation="vertical">
+    <!--<android.support.v4.widget.DrawerLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent">-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="left"-->
+    <!--android:orientation="vertical">-->
+    <!--<ListView-->
+    <!--android:id="@+id/list"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:divider="#dfdfdf"-->
+    <!--android:dividerHeight="2dp"/>-->
+    <!--</LinearLayout>-->
+
+    <!--</android.support.v4.widget.DrawerLayout>-->
+    <!--<ScrollView-->
+        <!--android:id="@+id/sv_panel"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+            </LinearLayout>
+
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+                <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:id="@+id/title"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_width="0dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_weight="3"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:paddingLeft="100dp"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:gravity="center"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_gravity="center"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:text="传感器数据图表"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textColor="@android:color/black"&ndash;&gt;-->
+                    <!--&lt;!&ndash;android:textSize="18sp" />&ndash;&gt;-->
+
+
+            <!--</LinearLayout>-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.8"
+
+
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/dianzu"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:text="R"/>
+                <Button
+                    android:id="@+id/nongdu"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+
+                    android:text="C"/>
+                <Button
+                    android:id="@+id/set_value"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:text="SET"/>
+                <!--<Button-->
+                    <!--android:id="@+id/high_value"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_weight="1"-->
+
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="高值"/>-->
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="时间"/>-->
+                <!--<Button-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="范围"/>-->
+                <Button
+                    android:id="@+id/clear"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:text="RESET"/>
+                <Button
+                    android:id="@+id/connect_device"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp"
+                    android:text="BLUETOOTH"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    <!--</ScrollView>-->
+</LinearLayout>
